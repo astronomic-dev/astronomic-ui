@@ -6,14 +6,14 @@ Free, restylable Astro components driven by semantic `--ui-*` tokens: navbars, h
 - No React needed: the interactive parts (the menu, the mode switch, the forms) are native HTML with small scripts.
 - Tailwind CSS v4 utilities on the kit's tokens.
 
-Docs and live examples: [astronomic.dev/ui](https://astronomic.dev/ui)
+Docs and live examples: [astronomic.dev/ui](https://astronomic.dev/ui). Package: [npm](https://www.npmjs.com/package/@astronomic-dev/ui). Source and issues: [GitHub](https://github.com/astronomic-dev/astronomic-ui).
 
 ## Install
 
-Astronomic UI needs Astro 7 and Tailwind CSS v4. Install it from this repo, with its peers:
+Astronomic UI needs Astro 7 and Tailwind CSS v4. Install it with its peers:
 
 ```sh
-pnpm add github:astronomic-dev/astronomic-ui astro tailwindcss @tailwindcss/vite
+pnpm add @astronomic-dev/ui astro tailwindcss @tailwindcss/vite
 ```
 
 Add Tailwind's Vite plugin in `astro.config.mjs`:
@@ -78,7 +78,13 @@ Every component, its props and its slots: [astronomic.dev/ui](https://astronomic
 
 ## Site search
 
-The search components (`SearchClassic`, `SearchButton`, `SearchPage`) run on the free `@astronomic-dev/search` package, which the kit does not install. Its public release is in preparation. The other components do not need it.
+The search components (`SearchClassic`, `SearchButton`, `SearchPage`) run on the free `@astronomic-dev/search` package, which the kit does not install. To use them, add it to your site:
+
+```sh
+pnpm add @astronomic-dev/search
+```
+
+The other components do not need it.
 
 ## License
 

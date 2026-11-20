@@ -14,3 +14,6 @@ minimumReleaseAgeExclude:
   - '@emdash-cms/blocks@1.4.0'
   - '@emdash-cms/gutenberg-to-portable-text@1.4.0'
   - emdash@1.4.0
+
+# Optional peers (site search) are for sites that use them, not for the kit's own install.
+autoInstallPeers: false

@@ -1,10 +1,29 @@
 {
   "name": "@astronomic-dev/ui",
   "version": "0.1.0",
-  "private": true,
   "type": "module",
   "packageManager": "pnpm@11.21.0",
-  "description": "Astronomic UI: restylable Astro components driven by semantic tokens.",
+  "description": "Restylable Astro components on semantic design tokens and Tailwind CSS v4: navbars, heroes, cards, forms, footers and more, with presets and dark mode.",
+  "keywords": [
+    "astro",
+    "astro-component",
+    "tailwindcss",
+    "ui",
+    "components",
+    "design-tokens"
+  ],
+  "homepage": "https://astronomic.dev/ui",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astronomic-dev/astronomic-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/astronomic-dev/astronomic-ui/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "src/"
+  ],
   "exports": {
     "./tokens.css": "./src/styles/tokens.css",
     "./theme.css": "./src/styles/theme.css",
@@ -31,11 +50,17 @@
   },
   "peerDependencies": {
     "tailwindcss": "^4.3.0",
-    "astro": "^7.0.0"
+    "astro": "^7.0.0",
+    "@astronomic-dev/search": "^0.1.0"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.3.3",
     "tailwindcss": "^4.3.3",
     "astro": "^7.3.5"
+  },
+  "peerDependenciesMeta": {
+    "@astronomic-dev/search": {
+      "optional": true
+    }
   }
 }
