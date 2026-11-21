@@ -1,5 +1,7 @@
 # Astronomic UI
 
+[![The Astronomic UI page on astronomic.dev: the headline “A foundation that holds as your site grows” beside a framed live preview of a kit hero section](https://raw.githubusercontent.com/astronomic-dev/astronomic-ui/main/.github/hero.webp)](https://astronomic.dev/ui)
+
 Free, restylable Astro components driven by semantic `--ui-*` tokens: navbars, heroes, cards, forms, footers, features, listings, search and more, in one consistent look. Swap a preset or a few token values and every component follows, dark mode included.
 
 - Works in any plain Astro site. Components take plain props and slots, never CMS objects.
@@ -89,3 +91,11 @@ The other components do not need it.
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+## More from Astronomic
+
+- [Astronomic Search](https://astronomic.dev/plugins/search): free, typo-tolerant site search for Astro.
+- [Vesper](https://astronomic.dev/themes/vesper): a free Astro theme for a personal blog and portfolio.
+- [Astronomic Starter](https://astronomic.dev/themes/starter): a free Astro starter for a small product site, with a blog and guides.
+- [wp-esc](https://astronomic.dev/learn/wordpress): plan a move from WordPress to Astro or EmDash.
+- [All Astronomic themes](https://astronomic.dev/themes)
