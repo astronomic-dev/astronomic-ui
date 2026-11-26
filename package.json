@@ -1,6 +1,6 @@
 {
   "name": "@astronomic-dev/ui",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "packageManager": "pnpm@11.21.0",
   "description": "Restylable Astro components on semantic design tokens and Tailwind CSS v4: navbars, heroes, cards, forms, footers and more, with presets and dark mode.",
@@ -51,7 +51,7 @@
   "peerDependencies": {
     "tailwindcss": "^4.3.0",
     "astro": "^7.0.0",
-    "@astronomic-dev/search": "^0.1.0"
+    "@astronomic-dev/search": "^0.2.2"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.3.3",
